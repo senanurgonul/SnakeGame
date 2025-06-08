@@ -1,0 +1,11 @@
+
+Senaryo:
+Oyuna başladığınızda bir yılan ve bir yem görüyorsunuz. Yılanı klavye tuşlarıyla kontrol edebilirsiniz. Yılanın kafası, yemi yedikçe büyür ve puan kazanırsınız. Amacınız, yemi yiyerek puanınızı artırmak ve oyunu kazanmaktır.
+
+Yemin yanı sıra altın yemleri de bulunmaktadır. Altın yemi yediğinizde ekstra puan kazanırsınız. Ancak altın yemi, belirli bir süreyle sınırlıdır ve bu süre dolarsa altın yemi kaybolur.
+
+Oyunda ayrıca çukurlar bulunmaktadır. Eğer yılan çukura düşerse, oyun sona erer ve skorunuz kaybettiğiniz andaki tepkinizle kaydedilir. Skorunuz en yüksek skoru geçerse, yeni bir rekor oluşturursunuz ve skorunuz 50 yi geçerse oyunu kazanırsınız.
+
+Oyun bittiğinde, skorunuz , en yüksek skorunuz ve yandığınız andaki reaksiyonunuz ekranda görüntülenir. Ayrıca, yılanın ölüm pozisyonu da gösterilir. Oyunu yeniden başlatmak için "Restart" düğmesine tıklayabilirsiniz.
+
+ Eğlenceli oyunlar!
