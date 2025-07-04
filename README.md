@@ -1,54 +1,50 @@
 # 🐍 SnakeGame
 
-Bu proje, klasik **Yılan Oyunu**'nun JavaScript (p5.js) kütüphanesiyle modernleştirilmiş bir versiyonudur. Oyuncu, yılanı kontrol ederek yemleri toplamaya ve puan kazanmaya çalışır. Özgün yanı: yandığında kameraya yakalanırsın! 😎🎥
+This project is a modernized version of the classic **Snake Game**, developed using JavaScript and the p5.js library. The player controls the snake to collect food and score points. Its unique twist: when you die, the camera catches you! 😎🎥
 
 ---
 
-## 🎮 Oyun Hakkında
+## 🎮 About the Game
 
-- Klavye yön tuşları ile oynanır.
-- Oyuna “Play” butonuna tıklayarak başlanır.
-- Yılan, yemleri yedikçe büyür ve hızı artar.
-- Altın yemler belirli süreyle çıkar, fazladan puan kazandırır.
-- Kendine, sınır duvarlarına veya çukurlara çarparsan oyun biter.
-- Skorun 50’ye ulaşırsa oyunu kazanırsın!
+- Controlled using keyboard arrow keys  
+- Click the “Play” button to start  
+- The snake grows and speeds up as it eats  
+- Golden food appears occasionally, giving bonus points  
+- Game over if you hit yourself, the wall, or pits  
+- Reach a score of 50 to win!
 
-### 📸 Yenilikçi Özellik
+### 📸 Innovative Feature
 
-- Oyuncu yandığında **kamera kaydı alınır** ve ölüm konumu işaretlenir.  
-  Oyuna eğlenceli ve sürprizli bir deneyim katar. 😄
+- When the player dies, a **camera snapshot** is taken and the death spot is marked  
+  Adds a fun and surprising experience to the game! 😄
 
 ---
 
-## 🧠 Oynanıştan Görseller
+## 🧠 Gameplay Screenshots
 
-### Ana Menü  
-![Ana Menü](docs/1.jpg)
+### Main Menu  
+![Main Menu](docs/1.jpg)
 
-### Oyun İçi  
-![Oyun İçi](docs/2.jpg)
+### In-Game  
+![In-Game](docs/2.jpg)
 
-### Game Over Ekranı  
+### Game Over Screen  
 ![Game Over](docs/3.jpg)
 
 ---
 
-## 🧩 Kod Yapısı
+## 🧩 Code Structure
 
-- `index.html` → Ana HTML dosyası  
-- `style.css` → Arayüz stilleri  
-- `sketch.js` → Oyun döngüsü ve genel işleyiş  
-- `Snake.js` → Yılanın davranışları (hareket, çarpışma, büyüme)  
-- `Flame.js` → Yandığında çıkan efektler  
-- `p5.js` ve `p5.sound.min.js` → Kütüphane dosyaları  
-- `ses/` klasörü → Oyun müzikleri ve efekt sesleri  
-- `amac.txt` → Oyunun kısa açıklaması
-
----
-
+- `index.html` → Main HTML file  
+- `style.css` → UI styling  
+- `sketch.js` → Main game loop and logic  
+- `Snake.js` → Snake behavior (movement, collision, growth)  
+- `Flame.js` → Effect triggered upon death  
+- `p5.js` and `p5.sound.min.js` → Library files  
+- `ses/` folder → Game music and sound effects  
+- `amac.txt` → Short game description
 
 ---
 
-## 📜 Lisans
 
-Bu proje, eğitim amaçlı geliştirilmiştir. Kodlar açık kaynaklıdır ve geliştirilmeye açıktır.
+This project was developed for educational purposes. The code is open source and open to contributions.
